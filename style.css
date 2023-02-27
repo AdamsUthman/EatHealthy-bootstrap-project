@@ -1,0 +1,278 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.line {
+    height: 6px;
+    width: 20%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+}
+
+.line2 {
+    height: 6px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+}
+
+.green-bg {
+    background-color: rgb(20, 219, 20);
+}
+
+.medium-heading {
+    font-weight: 300;
+}
+
+/* Navigation Section */
+.nav-item {
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(20, 219, 20);
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    color: white;    
+    background-color: rgb(20, 219, 20);
+    transition: all 0.4s;
+}
+
+.btn1:hover {
+    background-color: rgb(24, 178, 24);
+}
+
+.bi-bag-check {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.bi-bag-check:hover {
+    color: rgb(20, 219, 20);
+}
+
+/* Top Section */
+.main {
+    background-image: url(./imgs/m1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.big-heading {
+    font-size: 5rem;
+    font-family: 'Righteous', cursive;
+}
+
+.small-heading {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 18px;
+    color: gray;
+}
+
+.mbtn1 {
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    color: white;
+    margin-right: 10px;    
+}
+
+.mbtn1:hover {
+    background-color: rgb(24, 178, 24);
+    color: white;
+    transition: all 0.4s;
+}
+
+.mbtn2 {
+    background-color: transparent;
+    border-radius: 50px;
+    color: rgb(20, 219, 20); 
+    border: 1px solid rgb(20, 219, 20); 
+    transition: all 0.4s;  
+}
+
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    color: white;    
+}
+
+/* About section */
+.about {
+    background-image: url(./imgs/abut.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* Welcome section */
+
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome i {
+    font-size: 50px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2 {
+    font-weight: lighter;
+}
+
+.card {
+    cursor: pointer;
+}
+
+/* Product section */
+.rating {
+    text-align: end;
+    color: orange;
+}
+
+.product .card {
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    color: white;
+    margin: 0 auto;
+    transition: all 0.4s;
+}
+
+.add-btn:hover {
+    border-radius: 50px;
+    border-color: rgb(20, 219, 20);
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+}
+
+/* Discout section */
+.discount .dis-des {
+    font-weight: 400;
+}
+
+.dis-btn {
+    background-color: white;
+    border-radius:50px;
+    transition: all 0.4s;
+}
+
+.dis-btn:hover {
+    background-color: rgb(202, 202, 200);
+}
+
+
+/* Store section */
+.store-card:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    transition: all 0.4s;
+}
+
+.store-card:hover .store-des {
+    color: white;
+}
+
+/* New Arrivals section */
+
+
+.new-arrivals h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.new-arrivals-rating {
+    color: orange;
+}
+
+/* Contact Section */
+.contact {
+    background-image: url(./imgs/cont.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.footer i {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.footer i:hover {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border: 1px solid transparent;
+}
